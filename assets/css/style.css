@@ -21,11 +21,11 @@ figure{margin:0;}
 /* PORTFOLIO */
 .portfolio-header{margin-top: 3.125rem;margin-bottom: 4.375rem;}
 .portfolio-header h2{font-size: 3.125rem; font-weight: 400; color: #4d4d4d; line-height: 2.25rem; margin-bottom:0.625rem;}
-.portfolio-header p{font-size: 1.125rem; font-weight: 300; color: #4d4d4d; line-height: 1.125rem;}
+.portfolio-header p{font-size: 1.125rem; font-weight: 300; color: #4d4d4d; line-height: 1.125rem; margin: 0;}
 .portfolio-header figure{margin-right: 1.25rem;}
 
 .graph-container figcaption{font-size: 10px;font-weight: 400; color: #666666; margin: 1.25rem 0 0;}
-.portfolio-listing{list-style: none;}
+.portfolio-listing{list-style: none;padding: 0;}
 .portfolio-listing li{border:2px solid #e6e6e6;border-radius:5px; margin:0 0 0.625rem;}
 .portfolio-listing li:last-child{border:0;}
 .portfolio-listing li a{display: block;position: relative;}
@@ -64,4 +64,5 @@ figure{margin:0;}
 
 /* INVEST BTN */
 .invest-now{margin:1.25rem 0;}
-.invest-btn{padding: 1.5rem 3.25rem;border-radius:5px;background: #12d6b0;color: #ffffff;font-size: 1.875rem;}
+.invest-btn{padding: 1.5rem 3.25rem;border-radius:5px;background: #12d6b0;color: #ffffff;}
+.invest-btn h2{font-size: 1.875rem;}

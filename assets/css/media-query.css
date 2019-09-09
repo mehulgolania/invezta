@@ -1,0 +1,28 @@
+@media only screen and (max-width: 767px){
+
+  /* HEADER */
+  .back-btn, .cross-btn{width: 24px;}
+  .header-logo{margin-left: 1rem;width: 160px;}
+  .main-header{margin-bottom: 3.5rem;}
+
+  /* TITLE SECTION */
+  .title-section h1{font-size: 1.5rem;}
+
+  /* PORTFOLIO */
+  .portfolio-header{margin-top:1.5rem;margin-bottom: 2rem;}
+  .portfolio-header h2{font-size: 2rem;margin: 0;}
+  .portfolio-header p{font-size: 1rem;}
+  .portfolio-header figure{margin-right: 0.625rem;}
+
+  .portfolio-listing{margin-top:1rem;}
+  .portfolio-deatils h2{font-size: 1rem;}
+  .mf-type{padding-left: 1rem;margin-bottom: 0.625rem;}
+  .mf-type, 
+  .mf-note{font-size: 0.800rem;}
+  .mf-type:before{left: 0;width:10px;height:10px;}
+  .portfolio-amount{font-size: 1.12rem;}
+  .portfolio-listing .list-note{padding: 0;}
+
+  .invest-btn{padding: 1rem 2rem;}
+  .invest-btn h2{font-size: 1rem;}
+}
