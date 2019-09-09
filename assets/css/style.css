@@ -1,0 +1,67 @@
+/* GLOBAL CSS */
+body{font-family: 'Montserrat', sans-serif;}
+a{display: inline-block;}
+a:hover{text-decoration: none;}
+figure{margin:0;}
+
+/* CONTAINERS */
+.big-container{width:1790px;max-width: 100%;padding:0 15px;margin: 0 auto;}
+.content-container{width: 1480px; max-width: 100%; padding: 0 15px; margin: 0 auto;}
+
+/* HEADER */
+.main-header{background: #ececee;padding: 30px 0;margin-bottom: 7.75rem;}
+.header-logo{margin-left: 65px;}
+.back-btn,
+.cross-btn{margin:0.625rem 0 0;}
+
+/* TITLE SECTION */
+.title-section h1{font-size:3rem;font-weight: 300; color: #5b5b5b;}
+.title-section .sub-title{font-size: 0.75rem; font-weight: 500; color: #808080;}
+
+/* PORTFOLIO */
+.portfolio-header{margin-top: 3.125rem;margin-bottom: 4.375rem;}
+.portfolio-header h2{font-size: 3.125rem; font-weight: 400; color: #4d4d4d; line-height: 2.25rem; margin-bottom:0.625rem;}
+.portfolio-header p{font-size: 1.125rem; font-weight: 300; color: #4d4d4d; line-height: 1.125rem;}
+.portfolio-header figure{margin-right: 1.25rem;}
+
+.graph-container figcaption{font-size: 10px;font-weight: 400; color: #666666; margin: 1.25rem 0 0;}
+.portfolio-listing{list-style: none;}
+.portfolio-listing li{border:2px solid #e6e6e6;border-radius:5px; margin:0 0 0.625rem;}
+.portfolio-listing li:last-child{border:0;}
+.portfolio-listing li a{display: block;position: relative;}
+.portfolio-listing li a:before{content: '';position: absolute;left:-8px;top:-2px;width: 8px;height: calc(100% + 4px);background: transparent;border-radius: 10px;opacity: 0;}
+
+.portfolio-listing .list-note{font-size: 0.625rem;font-weight: 400;padding-right: 2rem;}
+
+.portfolio-deatils{padding:1.25rem 0.938rem;}
+.portfolio-deatils h2{font-size:1.37rem;font-weight: 500;color: #666666;margin: 0 0 1.25rem;}
+
+.mf-type,
+.mf-note{font-size: 1rem;font-weight: 300; color: #666666;}
+
+.mf-type{position: relative;padding-left:2.5rem;}
+.mf-type:before{content:'';width:15px;height: 15px;border-radius: 100%;position: absolute;top:0;bottom:0;margin: auto; left:8px; background: transparent;}
+
+.portfolio-amount{padding: 0.625rem;font-size: 2.25rem;font-weight: 500;color: #ffffff;}
+
+
+/* MF THEME */
+.mf-dark-green:before,
+.mf-dark-green .mf-type:before,
+.mf-dark-green .portfolio-amount{background: #14a388 !important;}
+
+.mf-green:before,
+.mf-green .mf-type:before,
+.mf-green .portfolio-amount{background: #13bc9c !important;}
+
+.mf-dark-blue:before,
+.mf-dark-blue .mf-type:before,
+.mf-dark-blue .portfolio-amount{background: #425b77 !important;}
+
+/* ACTIVE MF */
+.selected:before,
+.portfolio-listing li a:hover:before{opacity: 1 !important;}
+
+/* INVEST BTN */
+.invest-now{margin:1.25rem 0;}
+.invest-btn{padding: 1.5rem 3.25rem;border-radius:5px;background: #12d6b0;color: #ffffff;font-size: 1.875rem;}
